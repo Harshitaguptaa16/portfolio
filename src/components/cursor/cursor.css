@@ -1,0 +1,26 @@
+.cursor-container {
+    pointer-events: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 999;
+    display: none;
+    height: 12px; /* h-3 in Tailwind */
+    width: 12px; /* w-3 in Tailwind */
+    transform: translate(-50%, -50%); /* -translate-x-1/2 and -translate-y-1/2 */
+    align-items: center; /* items-center in Tailwind */
+    justify-content: center; /* justify-center in Tailwind */
+    border-radius: 50%; /* rounded-full in Tailwind */
+    background-color: #908c77; 
+  }
+  
+  @media (min-width: 640px) { /* sm:flex equivalent */
+    .cursor-container {
+      display: flex;
+    }
+  }
+  
+  .svg-icon {
+    transform: scale(0.5); /* scale-50 in Tailwind */
+    opacity: 0;
+  }

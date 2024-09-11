@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.head-txt{
+    color: #E1E1DC;
+    font-size: 7rem;
+    margin: 21rem 0 0 3rem;
+}
+.sub-head{
+    font-size: 2rem;
+    width: 46rem;
+    margin: 0 0 0 5rem;
+}
+.web-txt{
+    color:#CCCBC4 ;
+    width: 40rem;
+    margin: 23% 0 0 6%;
+    
+}
+.accordion__item{
+    margin: 0;
+    border-radius: 5px;
+
+}
+.main-txt{
+    cursor: pointer;
+}
+.main-txt .name 
+{
+   
+    color: #CCCBC4;
+}
+.open .main-txt .name{
+    color: #3B3834;
+    margin-left: 5px;
+    
+}
+.detail{
+    overflow: hidden;
+    height: 0;
+    color: #3B3834;
+    font-size:1.5rem;
+    align-items: center;
+    margin-left: 5px;
+}
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+.bx-plus{
+    font-size: 2rem;
+}
+.one{
+    margin: 0 0 0 18rem;
+}
+.two{
+    margin: 0 0 0 23.5rem;
+}
+.three{
+    margin: 0 0 0 24.5rem;
+}
+.four{
+    margin: 0 0 0 27.5rem;
+}
+.open{
+    background:#CCCBC4;
+    color:#3B3834;
+    
+}
+
+.open .detail{
+    height: auto;
+}
+
+@media screen and (max-width:992px){
+    .whatodo{
+        display: flex;
+        flex-direction: column;
+    }
+    .head-txt{
+        font-size: 4.5rem;
+        margin: 26rem 0 0 3rem;
+    }
+    .sub-head{
+        font-size: 1rem;
+        width: 32rem;
+        margin-bottom: 0;
+    }
+    .web-txt{
+        width:25rem;
+        margin-top: 12%;
+    }
+    }
+    @media screen and (max-width:768px){
+      
+    }
+    @media screen and (max-width:425px){
+        .web-txt{
+            width: 22rem;
+        }
+        .whatodo{
+            display: flex;
+            flex-direction: column;
+        }
+        .detail{
+            overflow: hidden;
+            height: 0;
+            color: #3B3834;
+            font-size:0.8rem;
+            align-items: center;
+            margin-left: 5px;
+            width:350px;
+        }
+        .head-txt{
+            font-size: 3rem;
+            margin: 26rem 0 0 2rem;
+        }
+        .sub-head{
+            font-size: 1rem;
+            width: 18rem;
+            margin-bottom: 0;
+            margin-left: 4rem;
+        }
+        .web-txt{
+            margin-top: 12%;
+        }
+        .one{
+            margin: 0 0 0 8rem;
+        }
+        .two{
+            margin: 0 0 0 11.5rem;
+        }
+        .three{
+            margin: 0 0 0 12rem;
+        }
+        .four{
+            margin: 0 0 0 14rem;
+        }
+    }
+    @media screen and (max-width:375px){
+        .whatodo{
+            display: flex;
+            flex-direction: column;
+        }
+        .head-txt{
+            font-size: 2.5rem;
+            margin: 26rem 0 0 2rem;
+        }
+        .sub-head{
+            font-size: 0.9rem;
+            width: 18rem;
+            margin-bottom: 0;
+            margin-left: 3rem;
+        }
+        .web-txt{
+            margin-top: 12%;
+            
+        }
+        .one{
+            margin: 0 0 0 8rem;
+        }
+        .two{
+            margin: 0 0 0 11.5rem;
+        }
+        .three{
+            margin: 0 0 0 12rem;
+        }
+        .four{
+            margin: 0 0 0 14rem;
+        }
+    }

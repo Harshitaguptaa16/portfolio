@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.about{
+    background: rgb(19,19,17,1);
+    height:3500px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    max-width: 100%;
+}
+.about-txt{
+    color: #E1E1DC;
+    font-size: 7rem;
+}
+.rect-1{
+    width:800px;
+    height:300px;
+    background:#2A2825;
+    border-radius: 100px/200px;
+    margin: 5rem 0 0 24rem;
+    position: relative;
+}
+.rect-2{
+    width:600px;
+    height:200px;
+    background:#6D6D6B;
+    border-radius: 100px/200px;
+    margin: -16rem 0 0 30rem;
+    position: absolute;
+    z-index: 1;
+}
+.img-about{
+    width:450px;
+    margin: -26rem 0 0 34rem;
+    position: absolute;
+    z-index: 2;
+    
+}
+.img-about:hover{
+    border-radius: 5px;
+    width: 460px;
+}
+.about-txt2{
+    position: absolute;
+    z-index: 3;
+    font-size: 2rem;
+    color: #CCCBC4;
+    width:700px;
+    margin: 0 0 0 50%;
+}
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+@media screen and (max-width:992px){
+    .about{
+        /* width: 77%; */
+        height: 4900px;
+    }
+    .about-txt{
+        font-size: 4.5rem;
+    }
+    .rect-1 {
+        display: none;
+    }
+    .rect-2{
+        display: none;
+    }
+    .img-about{
+        width:300px;
+        margin:-2rem 0 0 0;
+        left:16rem;
+        z-index: 0;
+    }
+    .about-txt2{
+        position: absolute;
+        z-index: 1;
+        font-size: 1rem;
+        left:27rem;
+        width:300px;
+        margin: 15rem 0 0 0;
+    }
+
+}
+@media screen and (max-width:768px){
+    .about{
+        /* width: 77%; */
+        height: 4900px;
+    }
+    .about-txt{
+        font-size: 4.5rem;
+    }
+    .rect-1 {
+        display: none;
+    }
+    .rect-2{
+        display: none;
+    }
+    .img-about{
+        width:300px;
+        margin:-2rem 0 0 0;
+        left:16rem;
+        z-index: 0;
+    }
+    .about-txt2{
+        position: absolute;
+        z-index: 1;
+        font-size: 1rem;
+        left:27rem;
+        width:300px;
+        margin: 15rem 0 0 0;
+    }
+}
+@media screen and (max-width:576px){
+    .about{
+        /* width: 77%; */
+        height: 4900px;
+    }
+    .about-txt{
+        font-size: 4.5rem;
+    }
+    .rect-1 {
+        display: none;
+    }
+    .rect-2{
+        display: none;
+    }
+    .img-about{
+        width:300px;
+        margin:-2rem 0 0 0;
+        left:16rem;
+        z-index: 0;
+    }
+    .about-txt2{
+        position: absolute;
+        z-index: 1;
+        font-size: 1rem;
+        left:27rem;
+        width:300px;
+        margin: 15rem 0 0 0;
+    }
+}
+@media screen and (max-width:425px){
+    .about{
+        width: 98%;
+        height: 3500px;
+    }
+    .about-txt{
+        font-size: 3rem;
+    }
+    .rect-1 {
+        display: none;
+    }
+    .rect-2{
+        display: none;
+    }
+    .img-about{
+        width:200px;
+        margin:-2rem 0 0 0;
+        left:4rem;
+        z-index: 0;
+        
+    }
+    .img-about:hover{
+        width: 210px;
+    }
+    .about-txt2{
+        position: absolute;
+        z-index: 1;
+        font-size: 0.9rem;
+        left:7rem;
+        width:250px;
+        margin: 12rem 0 0 0;
+    }
+
+}
+
+@media screen and (max-width:375px){
+    .about{
+        /* width: 59%; */
+        height: 3300px;
+    }
+    .about-txt{
+        font-size: 2.5rem;
+    }
+    .rect-1 {
+        display: none;
+    }
+    .rect-2{
+        display: none;
+    }
+    .img-about{
+        width:200px;
+        margin:-2rem 0 0 0;
+        left:4rem;
+        z-index: 0;
+        
+    }
+    .img-about:hover{
+        width: 210px;
+    }
+    .about-txt2{
+        position: absolute;
+        z-index: 1;
+        font-size: 0.9rem;
+        left:7rem;
+        width:250px;
+        margin: 12rem 0 0 0;
+    }
+
+}

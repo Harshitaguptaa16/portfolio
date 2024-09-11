@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.header{
+    color: #E1E1DC;
+    font-size: 7rem;
+    margin: 4rem 0 0 3rem;
+}
+.work-div{
+    display: grid;
+    grid-template-columns: auto auto ;
+    
+}
+.work-item{
+    width:fit-content;
+    height:fit-content;
+}
+
+.work-item img {
+    transition: transform 0.7s ease-in-out, border-radius 0.2s ease-linear;
+    
+}
+
+.work-item:hover img {
+    transform: scale(1.05);
+    border-radius: 1.5rem; /* Equivalent to rounded-3xl */
+}
+.mov-ball{
+    color: #000000;
+    background-color: #6c770c;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+}
+.item-1{
+    margin: 2rem 5rem 4rem 8rem;
+}
+.item-2{
+    margin: 8rem 5rem 0 5rem;
+}
+.item-3{
+    margin: 8rem 4rem 0 8rem;
+}
+.item-4{
+    margin: 2rem 2rem 0 5rem ;
+    width: 550px;
+}
+.project-name{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #E1E1DC;
+    
+}
+.project-head p{
+   box-sizing: border-box;
+   border: 1.5px solid #9E8A7C ;
+   
+}
+.project-head p{
+    margin: 7px;
+    border-radius: 40%;
+    text-align: center;
+    font-size: 1.2rem;
+    width: fit-content;
+    height: 2rem;
+    padding: 8px 11px 35px 15px;
+    font-weight: 700;
+    color: #9E8A7C;
+}
+
+@media screen and (max-width:992px){
+    .header{
+        font-size: 4.5rem;
+    }
+    .work-div{
+        grid-template-columns: auto;
+    }
+    .item-1{
+        margin: 2rem 3rem;
+        
+        width:570px;
+    }
+    .item-2{
+        margin: 2rem 3rem;
+        
+    }
+    .item-3{
+        margin: 2rem 3rem;
+    
+    }
+    .item-4{
+        margin: 2rem 3rem;
+        width:570px;
+    }
+    }
+    @media screen and (max-width:768px){
+      
+    }
+    @media screen and (max-width:425px){
+        .header{
+            font-size: 2.5rem;
+        }
+        .work-div{
+            grid-template-columns: auto;
+        }
+        .item-1{
+            margin: 2rem 3rem;
+            
+            width:290px;
+        }
+        .item-2{
+            margin: 2rem 3rem;
+            width:290px;
+        }
+        .item-3{
+            margin: 2rem 3rem;
+            width:290px;
+        }
+        .item-4{
+            margin: 2rem 3rem;
+            width:290px;
+        }
+        .project-name{
+            font-weight: 800;
+            font-size: 1.8rem;
+            color: #E1E1DC;
+            
+        }
+        .project{
+            display: flex;
+            flex-direction: column;
+        }
+        .project-head p{
+           box-sizing: border-box;
+           border: 1.5px solid #9E8A7C ;
+           
+        }
+        .project-head p{
+            margin: 7px;
+            border-radius: 40%;
+            text-align: center;
+            font-size: 0.9rem;
+            width: fit-content;
+            height: 2rem;
+            padding: 8px 11px 35px 15px;
+            font-weight: 700;
+            color: #9E8A7C;
+        }
+    }
+    @media screen and (max-width:375px){
+        .header{
+            font-size: 2.5rem;
+        }
+        .work-div{
+            grid-template-columns: auto;
+        }
+        .item-1{
+            margin: 2rem 3rem;
+            
+            width:270px;
+        }
+        .item-2{
+            margin: 2rem 3rem;
+            width:270px;
+        }
+        .item-3{
+            margin: 2rem 3rem;
+            width:270px;
+        }
+        .item-4{
+            margin: 2rem 3rem;
+            width:270px;
+        }
+        .project-name{
+            font-weight: 800;
+            font-size: 1.8rem;
+            color: #E1E1DC;
+            
+        }
+        .project{
+            display: flex;
+            flex-direction: column;
+        }
+        .project-head p{
+           box-sizing: border-box;
+           border: 1.5px solid #9E8A7C ;
+           
+        }
+        .project-head p{
+            margin: 7px;
+            border-radius: 40%;
+            text-align: center;
+            font-size: 0.9rem;
+            width: fit-content;
+            height: 2rem;
+            padding: 8px 11px 35px 15px;
+            font-weight: 700;
+            color: #9E8A7C;
+        }
+    }

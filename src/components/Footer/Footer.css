@@ -1,0 +1,152 @@
+.footer{
+    position: relative;
+    z-index: 10;
+    bottom: -215rem;
+}
+.circle{
+    border-radius: 80%;
+    background-color:#CCCBC4; 
+    font-size: 5rem;
+    height: 150px;
+    width: 160px;
+    display: inline-block;
+}
+.foot{
+    font-size: 12rem;
+    align-items: center;
+    justify-content: center;
+    color: #3B3834;
+    margin-left: 1.5rem;
+}
+.footer-content{
+    margin-left: 4rem;
+    margin-right: 2rem;
+    margin-bottom: 4rem;
+}
+.footer-content div p{
+    color: #3B3834;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.footer-content div ul li{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.copyright{
+    margin-left: 4rem;
+    
+}
+.copy-name{
+    font-size: 5rem;
+    color: #3B3834;
+    font-weight: 800;
+    line-height: 6rem;
+}
+.time span{
+    color: #3B3834;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.time p{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.dot span i{
+    background-color: #CCCBC4;
+    border-radius: 100%;
+    font-size: 4rem;
+    padding: 1.5rem;
+    margin: 0 2.5rem 0 0;
+    transition: 2s;
+}
+.footer-content a{
+    text-decoration: none;
+    color:#3B3834 ;
+}
+.arrow:hover{
+    animation:slide1 1s ease-in-out infinite;
+    margin-top: 10px;
+}
+@keyframes slide1{
+    0%,100%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(10px,0);
+    }
+}
+
+@media screen and (max-width:992px){
+    .footer{
+        bottom: -300rem;
+    }
+    .foot{
+        font-size: 6rem;
+    }
+    .circle{
+        width:60px;
+        height: 70px;
+    }
+    .dot span i{
+        margin: 0;
+        
+    }
+    
+    }
+    @media screen and (max-width:576px){
+       
+    }
+    @media screen and (max-width:425px){
+        .footer{
+            bottom: -220rem;
+        }
+        .foot{
+            font-size: 3rem;
+        }
+        .circle{
+            width:39px;
+            height: 40px;
+        }
+        .dot span i{
+            margin: 0;
+            
+        }
+        .footer-content{
+            margin-top: 1rem;
+            margin-left: 1rem;
+        }
+        .copy-name{
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        .copyright{
+            margin-left: 1rem;
+        }
+    }
+    @media screen and (max-width:375px){
+        .footer{
+            bottom: -200rem;
+        }
+        .foot{
+            font-size: 2.7rem;
+        }
+        .circle{
+            width:35px;
+            height: 35px;
+        }
+        .dot span i{
+            margin: 0;
+            
+        }
+        .footer-content{
+            margin-top: 1rem;
+            margin-left: 1rem;
+        }
+        .copy-name{
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        .copyright{
+            margin-left: 1rem;
+        }
+    }
