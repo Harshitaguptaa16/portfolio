@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio.git/static/css/main.50fd51ee.css",
+    "main.js": "/portfolio.git/static/js/main.47fdcc86.js",
+    "static/media/wellness.png": "/portfolio.git/static/media/wellness.fcc905f0bcc2eb76c4ad.png",
+    "static/media/nogogirl.png": "/portfolio.git/static/media/nogogirl.a292f2eaa40098dd99ff.png",
+    "static/media/kerala.png": "/portfolio.git/static/media/kerala.897d2b15cba627d88536.png",
+    "static/media/huufmn.png": "/portfolio.git/static/media/huufmn.612579590ceb77bd5dde.png",
+    "static/media/img3.jpeg": "/portfolio.git/static/media/img3.70be79c78b017a8afdb6.jpeg",
+    "index.html": "/portfolio.git/index.html",
+    "main.50fd51ee.css.map": "/portfolio.git/static/css/main.50fd51ee.css.map",
+    "main.47fdcc86.js.map": "/portfolio.git/static/js/main.47fdcc86.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50fd51ee.css",
+    "static/js/main.47fdcc86.js"
+  ]
+}
